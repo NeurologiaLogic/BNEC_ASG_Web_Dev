@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Examples</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link href="../../dist/output.css" rel="stylesheet" /> -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "bnec-primary": "#496F24",
+              "bnec-black": "#F2F2F2",
+            },
+            boxShadow: {
+              "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+              "bnec-button-cta": "-4px -4px 4px rgba(0, 0, 0, 0.25), 3px 3px 4px rgba(255, 255, 255, 0.25)"
+
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <nav class="flex justify-between items-center px-32">
+      <div class="left">
+        <img
+          src="../../assets/Logo.svg"
+          alt="BNEC Social Event Logo"
+          width="180px"
+        />
+      </div>
+      <div class="right flex space-x-4">
+        <a>Campaign</a>
+        <a>Webinar</a>
+        <a>Articles</a>
+        <a>Donate</a>
+      </div>
+    </nav>
+    <main>
+      <section class="bg-[url('../../assets/bg-1.png')] bg-cover">
+        <div class="flex-col items-center space-y-6">
+          <h2 class="text-3xl text-center pt-10">The 2022 BNEC Social Event</h2>
+          <h1 class="text-bnec-primary text-5xl font-bold text-center">
+            Combating Climate Change
+          </h1>
+          <div class="flex justify-center">
+            <button
+              class="rounded-xl px-4 py-2 mr-[4rem] bg-bnec-primary shadow-inner shadow-bnec-button-cta shadow-lg text-white hover:bg-black hover:text-white transition duration-300 ease-in-out"
+            >
+              Join Us
+            </button>
+            <!-- <img src="../../assets/main_button__CTA.png" width="120" alt=""> -->
+          </div>
+          <img
+            class="mx-auto"
+            src="../../assets/bear_facing_front.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="bg-[url('../../assets/bg-2.png')]">
+        <div class="wrapper p-10 flex justify-center">
+          <div
+            class="wrapper-bg flex rounded-full outline outline-2 shadow-lg outline-green-900"
+          >
+            <div
+              class="wrapper-item flex p-6 max-w-[400px] mx-auto bg-white items-center space-x-4 rounded-l-full"
+            >
+              <img class="shrink-0" src="../../assets/knowledge.png" alt="" />
+              <div class="content">
+                <h4 class="text-bnec-primary font-bold text-xl">Knowledge</h4>
+                <h5>Learn about the earth and climate condition</h5>
+              </div>
+            </div>
+            <div
+              class="wrapper-item flex p-6 max-w-[400px] mx-auto bg-white items-center space-x-4"
+            >
+              <img class="shrink-0" src="../../assets/comserv.png" alt="" />
+              <div class="content">
+                <h4 class="text-bnec-primary font-bold text-xl">
+                  Comserv Hours
+                </h4>
+                <h5>Be a volunteer and impact the community</h5>
+              </div>
+            </div>
+            <div
+              class="wrapper-item flex p-6 max-w-[400px] mx-auto bg-white items-center space-x-4 rounded-r-full"
+            >
+              <img class="shrink-0" src="../../assets/awareness.png" alt="" />
+              <div class="content">
+                <h4 class="text-bnec-primary font-bold text-xl">Awareness</h4>
+                <h5>Spread awareness about actions to protect the Earth</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[url('../../assets/bg-2.png')]">
+        <div class="flex justify-center items-center">
+          <div class="left w-[50%] py-10 pl-52 bg-white shadow-lg">
+            <h3 class="text-xl font-bold">About our theme</h3>
+            <h2 class="text-2xl font-bold text-bnec-primary">
+              Combating Climate Change
+            </h2>
+            <p class="max-w-lg">
+              As the Earth’s condition becomes more of a concern to all of us
+              everyday, this theme is hoped to be a wake-up call to us, as the
+              residents of this planet, to stop ourselves and others from doing
+              things that are damaging to our Earth. Instead, start taking
+              actions to heal it and to make it a better place for us to live
+              in.
+            </p>
+            <a href="#" class="underline text-bnec-primary"
+              >See more about Social Event 2023 ➡️</a
+            >
+          </div>
+          <div class="right w-[50%]">
+            <img src="../../assets/bear_facing_left.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="bg-[url('../../assets/bg-2.png')]">
+        <div class="flex-col space-y-5 pb-32">
+          <h4 class="grey-200 text-2xl text-center">Greetings</h4>
+          <h3 class="text-3xl text-center font-bold text-bnec-primary">
+            Warmest Messages for Everyone
+          </h3>
+          <div class="wrapper rounded-4xl flex justify-center">
+            <div class="wrapper-bg flex bg-white rounded-full mb-10">
+              <div
+                class="wrapper-item rounded-full px-5 py-4 text-center bg-bnec-primary text-white"
+              >
+                <h5 class="font-bold">Michelle Angela</h5>
+                <h6 class="text-sm">Project Manager Social Event 2022</h6>
+              </div>
+              <div
+                class="wrapper-item rounded-full px-5 py-4 text-center bg-white"
+              >
+                <h5 class="font-bold text-bnec-primary">Siti Raudah</h5>
+                <h6 class="text-sm">
+                  Vice Project of Marketing Social Event 2022
+                </h6>
+              </div>
+              <div
+                class="wrapper-item rounded-full px-5 py-4 text-center bg-white"
+              >
+                <h5 class="font-bold text-bnec-primary">Indiana Aisyah Nur</h5>
+                <h6 class="text-sm">
+                  Vice Project of Operation Social Event 2022
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center items-center space-x-10">
+            <div class="left">
+              <img
+                class="rounded-full w-max-xs"
+                src="../../assets/bear_face.png"
+                alt=""
+                width="180px"
+              />
+            </div>
+            <div class="right max-w-lg shadow-lg p-10 rounded-xl bg-white">
+              <h3>
+                If you're not making mistakes, you're not taking risks, and that
+                means you're not going anywhere. The key is to make mistakes
+                faster than the competition, so you have more changes to learn
+                and win.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-2 text-center text-white bg-bnec-primary">
+      <h5>Copyright 2023 IT Division</h5>
+    </footer>
+  </body>
+  <script src="../js/index.js"></script>
+</html>
